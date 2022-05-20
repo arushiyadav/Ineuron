@@ -1,0 +1,5 @@
+1) select rtrim(FIRST_NAME) from Worker;
+
+2) select distinct (length(department)) from Worker;
+
+3) SELECT * from (SELECT salary from employee order by salary DESC limit 3) order by salary asc limit 1;
