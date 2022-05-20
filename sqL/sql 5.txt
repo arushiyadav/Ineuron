@@ -1,0 +1,5 @@
+1) select * from Worker where First_NAME not in ("Vipul","Satish");
+
+2) select * from Worker where first_name like "_____%h";
+
+3) select * from Employee where email like "%@%.com";
