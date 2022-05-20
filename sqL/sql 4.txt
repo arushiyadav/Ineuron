@@ -1,0 +1,5 @@
+1) select REPLACE(FIRST_NAME,"a","A") from Worker;
+
+2) select * from Worker order by FIRST_NAME ASC, DEPARTMENT DESC;
+
+3) select firstname from Worker where salary = (select max(salary) from Worker);
