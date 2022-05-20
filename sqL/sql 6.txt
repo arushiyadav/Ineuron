@@ -1,0 +1,5 @@
+1) select * from Worker where joining_dt in ("Feb'2014");
+
+2) select * from Woker group by name,age,joining_dt having count(*)>1;
+
+3) delete from Employee where id in (select id from Employee group by name,age,joining_dt having count(*)>1;)
